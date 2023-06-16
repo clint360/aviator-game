@@ -1,7 +1,12 @@
 .graphicScreen {
     width: 100%;
-    background: #021;
     height: 70vh;
     border-radius: 5px;
     color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .graphicScreen {
+    height: 30vh;
+  }
 }

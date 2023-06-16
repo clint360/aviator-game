@@ -1,6 +1,12 @@
 .betcontrol {
     width: 100%;
-    min-height: 200px;
+    height: 200px;
     border-radius: 10px;
     color: white
+}
+
+@media screen and (max-width: 400px) {
+    .betcontrol {
+      height: 140px;
+    }
 }
