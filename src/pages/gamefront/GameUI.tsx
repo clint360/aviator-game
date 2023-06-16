@@ -1,13 +1,18 @@
 import * as React from 'react';
 import './GameUI.css'
-import { BetControl } from '../../core/components/organisms/betcontrol/BetControl'
-import { GraphicScreen } from '../../core/components/organisms/graphicscreen/GraphicScreen'
-import { Infoboard } from '../../core/components/organisms/infoboard/Infoboard'
-import { Navbar } from '../../core/components/organisms/navbar/Navbar'
-import { RoundHistoryLine } from '../../core/components/organisms/roundhistoryline/RoundHistoryLine'
+import { BetControl } from '../../core/components/organisms/betcontrol/BetControl';
+import { GraphicScreen } from '../../core/components/organisms/graphicscreen/GraphicScreen';
+import { Infoboard } from '../../core/components/organisms/infoboard/Infoboard';
+import { Navbar } from '../../core/components/organisms/navbar/Navbar';
+import { RoundHistoryLine } from '../../core/components/organisms/roundhistoryline/RoundHistoryLine';
+import { Provider } from '../../core/data/context/Context';
 
 export function GameUI() {
+
+  const [appBackground, setAppBackground] = React.useState("#151515");
+
   return (
+    <Provider value={{ appBackground }}>
       <div className='gameUI'>
       <Navbar />
       <div className="gameUISection">      
@@ -23,8 +28,8 @@ export function GameUI() {
       </div>
       </div>
   </div>
-  <div><BetControl /></div>
     </div>
+    </Provider>
   )
 }
 

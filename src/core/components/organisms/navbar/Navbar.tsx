@@ -1,12 +1,12 @@
 import * as React from 'react';
+import { AppContext } from '../../../data/context/Context';
 import './Navbar.css';
 
 export function Navbar() {
-    const navbar = {
-        background: "#012"
-    }
+  const { appBackground } = React.useContext(AppContext);
+
   return (
-    <nav className='navbar' style={navbar}>
+    <nav className='navbar' style={{background: appBackground}}>
       <div className="logodiv">
         Aviator
       </div>

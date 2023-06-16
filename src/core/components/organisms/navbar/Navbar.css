@@ -30,12 +30,13 @@
     border-radius: 20px;
     display: flex;
     background-color: rgb(216, 131, 34);
+    border: 1px solid rgb(233, 179, 86);
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 3px 5px;
     font-size: 15px;
     gap: 5px;
-    color: rgb(84, 84, 84);
+    color: rgb(88, 56, 33);
     user-select: none;
     cursor: pointer;
 }
