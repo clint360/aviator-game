@@ -1,0 +1,30 @@
+.gameUISection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.gameUISection .block-one {
+    flex-basis: 19%;
+}
+
+.gameUISection .block-two {
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gameUISection .block-two .two-bet-controls {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gameUISection .block-two .two-bet-controls div {
+    flex-basis: 49%;
+}
+
+

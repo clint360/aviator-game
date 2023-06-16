@@ -1,0 +1,7 @@
+.roundhistoryline {
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    background-color: #012;
+}

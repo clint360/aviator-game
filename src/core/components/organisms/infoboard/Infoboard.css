@@ -1,0 +1,17 @@
+.infoboard {
+    width: 100%;
+    background: #012;
+    height: 99.1vh;
+    border-radius: 10px;
+    color: white !important; 
+}
+
+.infoboard .tabs {
+    padding: 20px;
+    margin: auto;
+}
+
+.infoboard .tab {
+    color: white;
+    border-radius: 20px;
+}
