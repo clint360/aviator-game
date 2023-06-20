@@ -1,0 +1,97 @@
+.navbar {
+    height: 30px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logodiv {
+   color: orangered;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 800;
+   font-size: 30px;
+   font-style: italic;
+   display: flex;
+   width: 100%;
+   align-items: center;
+}
+
+.navbar .righthanddiv {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   width: auto;
+   height: 100%;
+   flex-basis: 50%;
+}
+
+.navbar .righthanddiv .howtoplay {
+    border-radius: 20px;
+    display: flex;
+    background-color: rgb(216, 131, 34);
+    border: 1px solid rgb(233, 179, 86);
+    justify-content: center;
+    align-items: center;
+    padding: 3px 5px;
+    font-size: 15px;
+    gap: 5px;
+    color: rgb(88, 56, 33);
+    user-select: none;
+    cursor: pointer;
+}
+
+.navbar .righthanddiv .howtoplay:hover {
+    filter: brightness(90%)   
+}
+
+.navbar .righthanddiv .howtoplay .questionMark {
+     border: 1px solid rgb(84, 84, 84);
+     border-radius: 50%;
+     font-size: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 15px;
+     width: 15px;
+}
+
+.balanceandmenu {
+   display: flex;
+   align-items: center;
+   height: 100%;
+   cursor: pointer;
+}
+
+.balanceandmenu .balance {
+    padding: 0 10px;
+    border-right: 1px solid rgb(140, 140, 140);
+    color: rgb(140, 140, 140);;
+}
+
+.balanceandmenu .menu {
+    font-size: 20px;
+    padding-left: 10px;
+    color: rgb(140, 140, 140);
+}
+
+.actualcashbalance {
+    font-weight: bold;
+    color: rgb(12, 172, 12);
+    font-size: 18px;
+    padding-right: 2.5px;
+}
+
+.balance .currency {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar .righthanddiv {
+        width: 600px;
+        flex-wrap: nowrap;   
+    }
+    .htptext {
+        display: none;
+    }
+}

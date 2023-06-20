@@ -1,0 +1,56 @@
+.gameUISection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.gameUISection .block-one {
+    flex-basis: 19%;
+}
+
+.gameUISection .block-two {
+    flex-basis: 79%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gameUISection .block-two .two-bet-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gameUISection .block-two .two-bet-controls div {
+    flex-basis: 49.2%;
+}
+
+
+@media screen and (max-width: 900px) {
+    .gameUISection {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        padding-top: 10px;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .gameUISection .block-two,
+    .gameUISection .block-one {
+        flex-basis: 99%;
+        padding: 5px;
+    }
+
+    .gameUISection .block-two .two-bet-controls {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gameUISection .block-two .two-bet-controls div {
+        flex-basis: 99%;
+    }
+}
