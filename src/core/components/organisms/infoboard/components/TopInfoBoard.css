@@ -1,0 +1,44 @@
+.topinfoboard {
+    position: relative;
+    overflow: hidden;
+    padding-top: 7px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5px;
+}
+
+.topinfoboardnav {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(40, 37, 37);
+    border-radius: 10px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.topinfoboardnav div {
+   padding: 4px;
+   width: 33.33%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+}
+
+.bg {
+    position: absolute;
+    width: 27%;
+    top: 8px;
+    height: 19px;
+    border-radius: 10px;
+    background: rgba(60, 59, 59, 0.739);
+   transition: all 0.2s ease;
+   border: 1px solid rgba(20, 20, 20, 0.739);
+   overflow: hidden;
+}
+
+.topinfoboardnav div:hover {
+    color: red;
+    cursor: pointer;
+}

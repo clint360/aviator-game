@@ -1,0 +1,18 @@
+.roundbubble {
+    background: rgba(28, 29, 28, 0.457);
+    width: auto !important;
+    max-width: 65px;
+    border-radius: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.roundbubble:hover {
+    filter: brightness(150%);
+    cursor: pointer
+}

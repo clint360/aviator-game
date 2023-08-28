@@ -1,0 +1,84 @@
+.allbets{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.allbetstop {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.betstable {
+    padding-top: 5px;
+}
+
+.betstable .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin: 2px 0;
+ }
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 30%;
+    overflow-y: none;
+    overflow-x: none;
+}
+
+.user .userimage {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.user .userimage img{
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+}
+
+.betusdx {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    height: 100%;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.cashoutusd {
+    font-weight: bold;
+    width: 10%;
+}
+
+.rowHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 5px;
+    font-size: 13px;
+    color: rgb(188, 188, 188);
+}
+
+
+.bus {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+    padding-left: 40px;
+}
+
+.rowactive {
+    background: green;
+}
