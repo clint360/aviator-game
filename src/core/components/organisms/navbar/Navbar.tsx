@@ -16,7 +16,7 @@ export function Navbar() {
         </div>
         <div className="balanceandmenu">
             <div className="balance">
-             <span className="actualcashbalance">3000.00</span>
+             <span className="actualcashbalance">2999.00</span>
              <span className="currency">USD</span>
             </div>
             <div className="menu">

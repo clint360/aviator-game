@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 10px;
+    user-select: none 
 }
 
 .gameUISection .block-one {
