@@ -1,0 +1,95 @@
+.uiview {
+    position: relative;
+    background: url('../assets/bg.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.1s;
+}
+
+.rocket-container {
+    width: 225px;
+    position: absolute;
+    margin-left: -80px;
+    margin-bottom: 150px;
+    z-index: 3;
+}
+
+.rocket-container img {
+    width: 100%;
+}
+
+.multiplier {
+    font-size: 7rem;
+    color: white;
+    font-weight: 800;
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.curve-container {
+    padding-top: 400px;
+    position: absolute;
+    z-index: 2;
+}
+
+.curve-container svg {
+    width: 1000px;
+    overflow: visible
+}
+
+.yourprofit {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.userprofit {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: #ddff57;
+}
+
+  .animation {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgb(21, 21, 21) 000%, rgba(9,9,28,1) 38%, rgba(0,212,255,0) 100%);
+  }
+
+  .animation video {
+    width:  150%;
+    height: 70vh;
+    object-fit: cover;
+    opacity: 0.1;
+  }
+
+  .counter-div {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    z-index: 3;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .uiview{
+      zoom: 50%;
+    }
+    .rocket-container {
+      margin-bottom: -10px;
+    }
+  }
+
+
+  .start {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
