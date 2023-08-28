@@ -1,9 +1,10 @@
 import React from 'react'
+import RowHeader from '../allbets/components/RowHeader'
 
 function MyBets() {
   return (
     <div>
-      My Bets
+      <RowHeader />
     </div>
   )
 }

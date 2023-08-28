@@ -58,6 +58,7 @@
 .cashoutusd {
     font-weight: bold;
     width: 10%;
+    padding-right: 10px;
 }
 
 .rowHeader {
