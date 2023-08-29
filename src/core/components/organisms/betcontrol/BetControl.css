@@ -109,8 +109,31 @@ button:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
     .betcontrol {
       height: 140px;
+      zoom: 90%;
+      padding: 20px;
     }
+    .betcontrol-maindiv .bottom{ 
+      margin-top: 15px;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+  .betcontrol {
+    height: 170px;
+    zoom: 70%;
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+  .betcontrol-maindiv .bottom{ 
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
 }

@@ -43,15 +43,28 @@
     .gameUISection .block-one {
         flex-basis: 99%;
         padding: 5px;
+        zoom: 99%;
     }
 
     .gameUISection .block-two .two-bet-controls {
         gap: 10px;
     }
+
+    .two-bet-controls {
+        padding-left: 5%;
+        zoom: 90%;
+    }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 410px) {
     .gameUISection .block-two .two-bet-controls div {
-        flex-basis: 99%;
+        zoom: 99%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .two-bet-controls {
+        padding-left: 2%;
+        zoom: 90%;
     }
 }
